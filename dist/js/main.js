@@ -47,7 +47,7 @@ function displayCountryInfo(countryByName) {
     } else {
         document.getElementById("country-name").innerHTML = "";
         document.querySelector("#flag img").style.border = "none";
-        document.querySelector("#flag img").src = "img/not-found.png";
+        document.querySelector("#flag img").src = "dist/img/not-found.png";
         document.querySelector("#flag img").alt = "Not found";
         document.getElementById("informations").style.display = "none";
     }
