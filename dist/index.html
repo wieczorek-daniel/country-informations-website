@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, 
+    minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Basic SEO-->
+    <title>Country informations</title>
+    <meta name="title" content="Country infomations | Basic knowledge about countries">
+    <meta name="description" content="You can find there basic informations about countries.">
+    <meta name="og:image" content="img/url-image.jpg">
+    <meta name="keywords" content="country, countries, flag, website, infomations">
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.4/awesomplete.min.css"/>
+    <link rel="stylesheet" href="css/main.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Ubuntu&display=swap" rel="stylesheet">
+    <!--Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" size="32" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.4/awesomplete.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="container h-100 align-self-center">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h1>Country informations</h1>
+            </div>
+            <div class="col-sm-12 d-flex justify-content-center">
+                <div class="search-bar jumbotron d-flex align-items-center">
+                    <input class="search-input" id="input-country" type="text" name="" placeholder="Search countries..." title="Type English or native name of country">
+                    <button type="button" id="button-search" class="btn search-button" data-toggle="modal" data-target="#modal"><i
+                            class="fas fa-search"></i></button>
+                    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal-title"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal-title">Informations<span id="country-name"></span></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="flag" class="flag-container text-center">
+                                        <img src="" class="img-fluid" alt=""></img>
+                                    </div>
+                                    <div id="informations" class="informations-container">
+                                        <p><i class="material-icons align-bottom">location_city</i>Capital: <span id="capital"></span></p>
+                                        <p><i class="material-icons align-bottom">phone</i>Dialing code: <span id="dialing-code"></span></p>
+                                        <p><i class="material-icons align-bottom">laptop</i>Top level domain: <span id="domain"></span></p>
+                                        <p><i class="material-icons align-bottom">people</i>Population: <span id="population"></span></p>
+                                        <p><i class="material-icons align-bottom">terrain</i>Area: <span id="area"></span></p>
+                                        <p><i class="material-icons align-bottom">money</i>Currencies: <span id="currencies"></span></p>
+                                        <p><i class="material-icons align-bottom">map</i>Region: <span id="region"></span></p>
+                                        <p><i class="material-icons align-bottom">place</i>Subregion: <span id="subregion"></span></p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
