@@ -3,7 +3,7 @@
 Website with basic informations about countries created by HTML5, CSS3 (Sass CSS preprocessor with SASS syntax) and JavaScript (connection to REST Countries API). 
 
 ## Setup
-First install the dependencies (node_modules folder) using following command
+First install the dependencies (node_modules folder) using following command:
 ```shell
 npm i node-sass
 ```
