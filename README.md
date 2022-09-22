@@ -15,8 +15,8 @@ Use it every time when you are changing main.sass file.
 
 ## API
 <ul>
-<li><b>Link to main website:</b> https://restcountries.eu/</li>
-<li><b>Link to API data:</b> https://restcountries.eu/rest/v2/all</li>
+<li><b>Link to main website:</b> https://restcountries.com/</li>
+<li><b>Link to API data:</b> https://restcountries.com/v2/all</li>
 </ul>
 
 ## Live demo
