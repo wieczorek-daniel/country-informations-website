@@ -55,7 +55,7 @@ function displayCountryInfo(countryByName) {
 
 function autocomplete() {
     let ajax = new XMLHttpRequest();
-    ajax.open("GET", "https://restcountries.eu/rest/v2/all", true);
+    ajax.open("GET", "https://restcountries.com/v2/all", true);
     ajax.onload = function () {
         let list = JSON.parse(ajax.responseText).map(function (i) {
             return i.name;
